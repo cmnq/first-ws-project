@@ -1,0 +1,479 @@
+/* font-family: 'Lora', serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Cormorant Garamond', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+header {
+width: 100%;
+height: 250px;
+border-bottom: solid 10px rgba(211, 211, 211, 0.22);
+}
+header nav {
+    width: 1000px;
+    height: 40px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+        
+
+}
+
+header nav ul {
+margin-top: 15px;
+text-decoration: none;  
+display: flex;  /* obok siebie*/ 
+justify-content: space-between /*(elementy na calej szerokosci)*/
+
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #2c2c2c;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header nav ul li a:hover {
+    color: #1fa2a2;
+    border-bottom: 2px solid #1fa2a2;
+    transition: ease 0.4s;
+}
+
+header nav ul li a.active {
+    color: rgba(31, 162, 162, 0.73);
+
+}
+
+header .container{
+width: 1080px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;   
+  
+}
+
+header .container #headersite {
+  margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px; 
+width: 500px;
+height: 200px
+
+}
+
+header .container #headersite h1 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    position: relative;
+    left: 50px;
+    height: 100px;
+    margin-top: 35px
+}
+
+header .container #headersite p {
+    font-family: 'Lora', serif;
+    font-size: 12px;
+    position: relative;
+    bottom: 45px;
+}
+
+header .container #headersite .social-icon {
+    float: left;
+    padding: 30px;
+    position: relative;
+    bottom: 250px;
+}
+
+header .container #headersite .social-icon img {
+    height: 20px;
+    cursor: pointer;
+    
+}
+
+
+header .container #searchbox {
+  margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px; 
+width: 500px;
+position: relative;
+left: 98px;
+bottom: 70px
+}
+
+input[type=search] {
+    width: 175px;
+    height: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background-color: rgba(105, 105, 105, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+    opacity: 0.5;
+ 
+}
+
+input[type=search:hover] {
+    opacity: 1.0
+}
+
+
+header .container #searchbox .btn {
+    height: 25px;
+    font-family: 'Lora', serif;
+    background-color: rgba(27, 109, 134, 0.73);
+    color: white;
+    border-radius: 10px;
+    width: 55px;
+    padding: 4px;
+    font-size: 11px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.5
+    
+}
+
+header .container #searchbox .btn:hover {
+    opacity: 1.0;
+    transition: ease 0.6s
+}
+
+
+.img-container {
+    background-image: url(img/header.jpeg);
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-bottom: solid 10px #e2d4d4;
+}
+
+.inner-container {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: white;
+    height: auto;
+    margin-top: 200px;
+}
+
+.inner-container h1 {
+    font-size: 33px;
+    font-family: Cormorant Garamond;
+text-shadow: 0px 0px 10px #000000;
+    width: 100%;
+   
+}
+
+.inner-container p {
+    font-family: Cormorant Garamond;
+    text-shadow: 0px 0px 10px #000000;
+    font-size: 20px;
+    padding: 10px
+    
+}
+
+.readbtn {
+  height: 40px;
+    font-family: 'Lora', serif;
+    background-color: transparent;
+    color: white;
+    width: 125px;
+    text-shadow: 0px 0px 10px #000000;
+    padding: 4px;
+    font-size: 12px;
+    border: 1px solid rgb(27, 109, 134);
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    opacity: 1.0;
+    
+    
+}
+
+.readbtn:hover {
+     height: 40px;
+    font-family: 'Lora', serif;
+    background-color: rgb(27, 109, 134);
+    color: white;
+    width: 125px;
+    text-shadow: 0px 0px 10px #000000;
+    padding: 4px;
+    font-size: 12px;
+    border: 1px dashed white;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    opacity: 1.0;
+    transition: ease 0.6s
+}
+
+article {
+     padding-left:0px;
+     padding-right:0px;
+}
+
+article #aboutme {
+    width: 100%;
+    height: 100px;
+}
+
+article #aboutme h1 {
+     font-family: Pacifico;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 50px;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    color: black;
+}
+article #portrait {
+    float: left;
+    width: 50%;
+    margin-top: 15px;
+    height: 525px;
+}
+article #portrait img{
+    width: 350px;
+    height: 450px;
+    border-radius: 2px 100px 4px 100px;
+    margin-left: 205px;
+    margin-right: 15px;
+}
+
+article #text {
+    float: right;
+    margin-right: 110px;
+    width: 40%;
+    height: 40px;
+    margin-top: 15px;
+}
+
+article #text h2{
+    font-family: Cormorant Garamond;
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 25px;
+}
+
+article #text p {
+    font-family: Cormorant Garamond;
+    font-weight: 900;
+}
+
+article #text p .spantext {
+    color: #35a1d1;
+}
+
+article #text p .spantext2 {
+    color:#b25190;
+}
+
+article #text img {
+    position: relative;
+    top: 150px;
+    width: 150px;
+    height: 70px;
+    left: 350px;
+}
+
+article #text .thanks {
+    font-family: Cormorant Garamond;
+    position: relative;
+    top: 150px;
+    left: 360px;
+    width: 130px
+}
+
+article #text .thanks .thx {
+    color: indianred;
+    font-style: italic;
+}
+
+.wrap{
+    clear: both;
+    width: 100%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.card {
+    transition: 0.4s;
+    text-align: center;
+    font-size: 16px;
+    font-family: Cormorant Garamond;
+    float: left;
+    margin: 15px;
+    width: 31%;
+    height: 20%;
+}
+
+.card h4{
+    font-size: 24px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.card p {
+    position: relative;
+    bottom: 45px;
+}
+
+.card .btnsponsor {
+    height: 30px;
+    width: 70px;
+    position: relative;
+    bottom: 40px;
+    background-color:  rgb(27, 109, 134);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: Cormorant Garamond;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.card .btnsponsor:hover{
+    border: 1px solid white;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.ghost {
+    width: 100%;
+    height: 285px;
+}
+
+footer {
+    background-color: #2D3047;
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+footer h1 {
+    height: 50px;
+}
+
+footer img {
+    width: 200px;
+    height: 150px
+}
+
+.footercard h1, h2, h3, h4, h5, h6 {
+    color: white;
+    text-align: center;
+    font-family: Cormorant Garamond;
+}
+
+
+.footercard {
+    position: relative;
+    bottom: 269px;
+    width: 33%;
+    height: 300px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footercard li {
+    height: 30px;
+    font-size: 15px;
+    font-family: Cormorant Garamond;
+    margin-top: 10px;
+}
+
+.footercard ul {
+    list-style-type: none;
+    height: 200px;
+    text-align: center;
+}
+
+.footercard li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footercard img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 155px;
+}
+
+.footercard h3 {
+    height: 25px;
+}
+
+.footercard h5{
+    height: 25px
+}
+
+.footercard p{
+    height: 90px;
+}
+
+.footercard a {
+    font-family: Cormorant Garamond;
+    text-decoration: none;
+    position: relative;
+    color: #F9FBF2;
+    font-style: italic;
+}
+
+.footercard a:hover {
+    font-style: normal;
+    font-size: 16px;
+}
+.footerp {
+    color: #EDDDD4;
+    text-align: center;
+}
+
+.andrew {
+    color: black;
+}
+
+.readmore {
+    position: relative;
+    left: 330px;
+}
+
+.readmore:hover {
+    text-transform: uppercase;
+}
